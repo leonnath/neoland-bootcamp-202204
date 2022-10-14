@@ -124,6 +124,8 @@ body {
 .Input {
   margin: 0.5rem;
   font-size: 1.3rem;
+  display: flex;
+  align-content: center;
 }
 
 .Input {
@@ -173,6 +175,15 @@ body {
 
 .Box--profile {
   height: 90vw;
+}
+
+form {
+  width: 60vw;
+  height: 90vh;
+  display: flex;
+  align-content: center;
+  border: #3A5673 0.075rem solid;
+  border-radius: 3%;
 }
 
 /*# sourceMappingURL=index.css.map */
